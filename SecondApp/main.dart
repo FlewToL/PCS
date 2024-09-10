@@ -105,46 +105,11 @@ class LoginForm extends StatelessWidget {
                       borderRadius: BorderRadius.circular(12),
                     ),
                   ),
-                  child: const Text(
-                    'Войти',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ),
-              ),
-              const SizedBox(height: 20),
-              SizedBox(
-                height: 56,
-                width: 380,
-                child: ElevatedButton(
-                  onPressed: (){},
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.white,
-                    side: const BorderSide(color: Colors.blue, width: 2),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                  ),
-                  child: const Text(
-                    'Регистрация',
-                    style: TextStyle(
-                      color: Colors.blue,
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ),
-              ),
-              const SizedBox(height: 10),
-              TextButton(
-                onPressed: () {},
-                child: const Text('Восстановить пароль',
-                    style: TextStyle(
-                      color: Colors.grey,
-                      fontSize: 18,
+
+
+                  ЧАСТЬ КОДА УБРАНА 
+
+                  
                     )
                 ),
               ),
