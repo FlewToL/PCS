@@ -58,9 +58,63 @@ class LoginForm extends StatelessWidget {
                   ),
                 ),
               ),
-
-              // ЧАСТЬ КОДА СПЕЦИАЛЬНО УБРАНА 
-              
+              const SizedBox(height: 20),
+              TextField(
+                decoration: InputDecoration(
+                  filled: true,
+                  fillColor: const Color(0xffe7eaed),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12.0),
+                    borderSide: BorderSide.none,
+                  ),
+                  labelText: 'Пароль',
+                  labelStyle: const TextStyle(
+                    color: Color(0xE79396A5),
+                    fontSize: 18,
+                  ),
+                ),
+                obscureText: true,
+              ),
+              const SizedBox(height: 8),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Checkbox(
+                    value: false,
+                    onChanged: (bool? value) {},
+                    checkColor: const Color(0xFF3E3E3E),
+                  ),
+                  const Text(
+                    'Запомнить меня',
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: Color(0xFF656565)
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 16),
+              SizedBox(
+                height: 56,
+                width: 380,
+                child: ElevatedButton(
+                  onPressed: (){},
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.blue,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                  ),
+                  child: const Text(
+                    'Войти',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ),
               const SizedBox(height: 20),
               SizedBox(
                 height: 56,
