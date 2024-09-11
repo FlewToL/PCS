@@ -4,6 +4,10 @@ void main() {
   runApp(const SecondApp());
 }
 
+const Color primaryAccentColor = Color(0xFFFFCC00);
+const Color primaryAccent2Color = Color(0xFFFFFF00);
+const Color primaryColor = Color(0xFF111111);
+
 class SecondApp extends StatelessWidget {
   const SecondApp({super.key});
 
@@ -12,7 +16,7 @@ class SecondApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.white,
+        backgroundColor: primaryColor,
         body: LoginForm(),
       ),
     );
@@ -33,7 +37,10 @@ class LoginForm extends StatelessWidget {
           child: Center(
             child: Text(
               'Авторизация',
-              style: TextStyle(fontSize: 34, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  color: primaryAccentColor,
+                  fontSize: 34, 
+                  fontWeight: FontWeight.bold),
             ),
           ),
         ),
@@ -46,32 +53,40 @@ class LoginForm extends StatelessWidget {
               TextField(
                 decoration: InputDecoration(
                   filled: true,
-                  fillColor: const Color(0xffe9ecef),
+                  fillColor: const Color(0xFF1f1f1f),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12.0),
                     borderSide: BorderSide.none,
                   ),
                   labelText: 'Логин',
                   labelStyle: const TextStyle(
-                    color: Color(0xE79396A5),
+                    color: Color(0xFF757575),
                     fontSize: 18,
                   ),
+                ),
+                style: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 16,
                 ),
               ),
               const SizedBox(height: 20),
               TextField(
                 decoration: InputDecoration(
-                  filled: true,
-                  fillColor: const Color(0xffe7eaed),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12.0),
-                    borderSide: BorderSide.none,
+                    borderSide: BorderSide.none
                   ),
+                  filled: true,
+                  fillColor: const Color(0xFF1f1f1f),
                   labelText: 'Пароль',
                   labelStyle: const TextStyle(
-                    color: Color(0xE79396A5),
+                    color: Color(0xFF757575),
                     fontSize: 18,
                   ),
+                ),
+                style: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 16,
                 ),
                 obscureText: true,
               ),
@@ -82,13 +97,14 @@ class LoginForm extends StatelessWidget {
                   Checkbox(
                     value: false,
                     onChanged: (bool? value) {},
-                    checkColor: const Color(0xFF3E3E3E),
+                    checkColor: primaryAccentColor,
+                    side: const BorderSide(color: primaryAccent2Color, width: 2),
                   ),
                   const Text(
                     'Запомнить меня',
                     style: TextStyle(
-                      fontSize: 16,
-                      color: Color(0xFF656565)
+                      fontSize: 18,
+                      color: primaryAccent2Color,
                     ),
                   ),
                 ],
@@ -100,7 +116,7 @@ class LoginForm extends StatelessWidget {
                 child: ElevatedButton(
                   onPressed: (){},
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.blue,
+                    backgroundColor: primaryAccentColor,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12),
                     ),
@@ -108,8 +124,8 @@ class LoginForm extends StatelessWidget {
                   child: const Text(
                     'Войти',
                     style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 20,
+                      color: primaryColor,
+                      fontSize: 21,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -122,8 +138,8 @@ class LoginForm extends StatelessWidget {
                 child: ElevatedButton(
                   onPressed: (){},
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.white,
-                    side: const BorderSide(color: Colors.blue, width: 2),
+                    backgroundColor: primaryColor,
+                    side: const BorderSide(color: primaryAccentColor, width: 2),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12),
                     ),
@@ -131,23 +147,26 @@ class LoginForm extends StatelessWidget {
                   child: const Text(
                     'Регистрация',
                     style: TextStyle(
-                      color: Colors.blue,
-                      fontSize: 20,
+                      color: primaryAccentColor,
+                      fontSize: 21,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
               ),
               const SizedBox(height: 10),
-              TextButton(
-                onPressed: () {},
-                child: const Text('Восстановить пароль',
+              Center(
+                child: TextButton(
+                  onPressed: () {},
+                  child: const Text(
+                    'Восстановить пароль',
                     style: TextStyle(
-                      color: Colors.grey,
+                      color: primaryAccent2Color,
                       fontSize: 18,
-                    )
+                    ),
+                  ),
                 ),
-              ),
+              )
             ],
           ),
         ),
