@@ -9,10 +9,11 @@
 
 **Веб версия:**
 
-![image](https://github.com/user-attachments/assets/e2edaed6-8314-4b95-b317-a9e3227aaf52)
+![image](https://github.com/user-attachments/assets/082d1e18-9afe-4767-981b-58db89f76970)
 
 
 **Эмулятор Pixel 8 Pro:**
 
-![image](https://github.com/user-attachments/assets/b4b2403a-d0df-4906-9c6f-348e942ce48f)
+![image](https://github.com/user-attachments/assets/30e7c349-ff74-4e60-9d6c-5d7ab330635c)
+
 
