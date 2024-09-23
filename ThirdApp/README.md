@@ -1,16 +1,8 @@
-# shop_app
+# Фуд Маркет
 
-A new Flutter project.
+Магазин еды (сделан по референсам перекрёстка), включающий в себя категории продуктов: Овощи, Хлебобулочные изделия (можно добавить и другие), а так же список продуктов для каждого раздела. Нажав на продукт, можно увидеть подробную информацию о нём (состав, пищевая ценность, производитель). Есть кнопки для добавления в корзину (пока что не рабочие)
 
-## Getting Started
+Тесты проводились на эмуляторе Pixel 8
 
-This project is a starting point for a Flutter application.
+Видео теста:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
