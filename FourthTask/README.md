@@ -6,4 +6,4 @@
 
 Подробная демонстрация работы на видео по ссылке:
 
-https://disk.yandex.ru/i/VyjbhwWPiqsN4Q
+https://disk.yandex.ru/d/uh40eR5MVIqrpw
