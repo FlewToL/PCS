@@ -1,16 +1,8 @@
-# shop_app
+# Фуд-Маркет
+Задание 4
 
-A new Flutter project.
+Реализовано добавление нового товара в соответствующую категорию: выбираем категорию, далее жмем + и вводим свойства товара, после чего загружаем картинку и добавляем новый товар. Если картинка отсутствует - будет отображена соответствующая иконка. 
 
-## Getting Started
+Так же товар можно удалить, если нажать на иконку мусорки: появится предупреждающее окно с подтверждением удаления товара. Если удалить все товары из списка, то вкладка будет пустая. 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Подробная демонстрация работы на видео:
