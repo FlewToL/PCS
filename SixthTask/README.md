@@ -1,16 +1,15 @@
-# shop_app
+# Приложение Фуд-Маркет / Задание по практике 6
 
-A new Flutter project.
+Изменения:
+- Добавлена возможность отображения личных данных в настройках профиля;
+- Реализован функционал редактирования личных данных: имя, фамилия, телефон, почта, аватар;
+- Реализовано добавление товара в избранное из каталога товаров (ранее было только в карточке товара);
+- Добавлена вкладка "Корзина" в панель навигации;
+- Реализована возможность добавления товара в корзину как с каталога товаров, так и с карточки товара;
+- Добавлена страница с отображением товаров которые добавлены в корзину;
+- Реализован функционал увеличения и уменьшения кол-ва товара в корзине на кнопки + и - соответственно;
+- Реализован функционал удаления товара из корзины при свайпе позиции влево и нажатием на кнопку удаления (предупредительное окно так же присутствует);
 
-## Getting Started
+Подробная демонстрация работы на видео по ссылке:
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://disk.yandex.ru/i/DACN1c0MnRr7DA
