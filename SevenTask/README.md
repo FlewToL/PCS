@@ -1,16 +1,12 @@
-# medicine_app
+# Приложение Медицинский магазин / Задание по практике 7
 
-A new Flutter project.
 
-## Getting Started
+Целью этой практики было полость реализовать дизайн приложения как на макете, который был сделан в Figma:
+- Использованы шрифты семейства Montserrat;
+- Использованы иконки из макета;
+- Отступы и цвета контейнеров и кнопок соблюдены;
+- Реализован функционал добавления и удаления товара из корзины.
 
-This project is a starting point for a Flutter application.
+Подробная демонстрация работы на видео по ссылке:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://disk.yandex.ru/i/BFAAs7oK96mLkw
