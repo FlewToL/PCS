@@ -1,16 +1,21 @@
-# shop_app
+# Приложение Фуд-Маркет / Задание по практике 8
 
-A new Flutter project.
+Реализация локального сервера с API на python(фреймворк FastAPI) для приложения Фуд-Маркет на Flutter.
 
-## Getting Started
+Реализован следующий функционал API:
+- получение всех продуктов
+- получение продуктов по ID
+- добавление нового продукта
+- обновление существующего продукта
+- удаление продукта
+- получение всех продуктов в избранном
+- получение продуктов в избранном по ID
+- добавление продукта в избранное
+- удаление продукта из избранного
+- получение всех продуктов в корзине
+- добавление продукта в корзину
+- удаление продукта из корзины
+- увеличение количества продукта в корзине
+- уменьшение количества продукта в корзине
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Сам сервер на Python FastAPI - https://github.com/FlewToL/PCS/blob/main/EightTaskServer/main.py
