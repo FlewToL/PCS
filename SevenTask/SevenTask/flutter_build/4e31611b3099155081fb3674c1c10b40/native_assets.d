@@ -1,1 +1,0 @@
- C:\\Users\\Romashka\\StudioProjects\\medicine_app\\.dart_tool\\flutter_build\\4e31611b3099155081fb3674c1c10b40\\native_assets.yaml: 
