@@ -1,16 +1,18 @@
-# shop_app
+# Приложение Фуд-Маркет / Задание по практике 9
 
-A new Flutter project.
+Реализация функиц удаления, добавления, редактирования товара в приложении Фуд-Маркет на Flutter с использованием методов API на FastAPI (python).
 
-## Getting Started
+Реализован следующий функционал:
+- Добавлено редактирование товара в карточку товара
+- Добавление товара теперь работает корректно
+- Удаление товара работает корректно
+- Изменение кол-ва товара в карзине в каталоге товаров и кароточке товара теперь плавно обновляется без загрузок и дергания экрана
 
-This project is a starting point for a Flutter application.
+####Нюанс:
+При редактировании товара и сохранении измененеий пользователя перекидывет в карточку товара, но данные в ней не будут обновлены до перезахода в карточку. Пока что я не придумал как обновить там данные, ибо все мои попытки увенчались неудачами и данные с апи не обновлялись.
 
-A few resources to get you started if this is your first Flutter project:
+Сам сервер на Python FastAPI - https://github.com/FlewToL/PCS/blob/main/EightTaskServer/main.py (он остался без изменений с практики 8)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Видео с демонстрацией работы приложения: https://disk.yandex.ru/d/UGeSKLrphEQi-w
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
