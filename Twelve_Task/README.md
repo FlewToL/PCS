@@ -1,16 +1,11 @@
-# shop_app
+# Приложение Фуд-Маркет / Задание по практике 12
 
-A new Flutter project.
+Была реализована система фильтрации, сортировки и поиска товара.
 
-## Getting Started
+Видео с демонстрацией работы: 
+https://disk.yandex.ru/i/9DKCPIS-Er-KaQ
 
-This project is a starting point for a Flutter application.
+Сервер: https://github.com/FlewToL/PCS/tree/main/server
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
