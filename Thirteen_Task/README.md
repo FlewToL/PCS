@@ -1,16 +1,9 @@
-# shop_app
+# Приложение Фуд-Маркет / Задание по практике 13
 
-A new Flutter project.
+Была реализована система оформления заказа: добавленные в корзину продукты при оформлении заказа переносятся в бд таблицыы Orders, а сама корзина очищается. 
+Заказы пользователя а так же их деталезацию можно посмотреть в профиле пользователя.
 
-## Getting Started
+Видео с демонстрацией работы:
+[https://disk.yandex.ru/i/PS1KIlPBGWdhGQ](https://disk.yandex.ru/i/sY8lnIYMr5lHxg)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Сервер - https://github.com/FlewToL/PCS/tree/main/server
