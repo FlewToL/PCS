@@ -1,16 +1,20 @@
-# shop_app
+# Приложение Фуд-Маркет / Задание по практике 14-15
 
-A new Flutter project.
+В ходе выполнения данного практического занятия, был реализован чат для обратной связи пользователей и поддержки магазина.
 
-## Getting Started
+Теперь про то как конкретно работает чат:
+- Чат в режиме реального времени отображает входящие и исходящие сообщения
+- Чат реализован на базе Supabase*
+- Сообщения в чате окрашиваются в цвет в зависимости от того кто отправитель а кто собеседник (зеленый и серые цвета соответственно)
+- Под каждым сообщением есть временная метка
+- Если зайти с аккаунта тех поддержки то вместо чата сначала предложит выбрать пользователя который уже писал в тех поддержку (если он не писал то его не будет в списке). Если нет ни 1 пользователя то будет соответсвующее сообщение.
+- Список пользователей сортируется по последнему сообщению от пользователя - если кто-то написал сообщение, то у поддержки этот юзер сразу всплывает вверх.
+- В списке пользователей у поддержки так же отображается в карточке их айди и последнее сообщение вместе со временной меткой (не важно от кого, поддержка или пользователь)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+*Примечание: выбрал Supabase, чтобы не мудрить с третьей базой Firebase, а то уже и так 2 базы используется (postgresql для хранения юзеров и их ролей, корзины, заказов и избранных, а так же Supabase для хранения авторизационных данных юзеров и их сообщений с поддержкой)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Видео с демонстрацией работы:
+https://disk.yandex.ru/i/_g0JQzX5UO9xLQ
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Сервер - https://github.com/FlewToL/PCS/tree/main/server
